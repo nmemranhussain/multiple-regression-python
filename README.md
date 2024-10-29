@@ -14,8 +14,7 @@ This repository contains a multiple regression analysis developed as part of the
 **Intended Users:** Data scientists, machine learning enthusiasts, educators.  
 **Out-of-scope Uses:** The model is not intended for production use in any critical applications or real-time decision-making systems.
 
-### Objective
-
+## Objective
 The primary aim of this project is to:
 1. Load and preprocess the dataset.
 2. Build a multiple regression model.
@@ -23,8 +22,7 @@ The primary aim of this project is to:
 4. Assess the impact of each variable on health premium costs.
 5. Provide insights and recommendations based on the results.
 
-### Methodology
-
+## Methodology
 - **Architecture:** This model utilizes linear models such multiple regression classification tasks.
 - **Training Data:** The dataset used for this analysis is [Payor](https://github.com/nmemranhussain/multiple-regression-python/blob/main/payor.csv), which includes anonymized patient data.
 - **Model Details**: The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables: **Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
