@@ -31,7 +31,7 @@ The primary aim of this project is to:
 - **Model Fitting**: Using Python libraries to estimate model parameters.
 - **Diagnostics**: Residual analysis and QQ plots for model validation.
 - **Model Evaluation**: R-squared and residual distribution analysis to evaluate fit.
-- **The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables:**Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
+- **Model Details**: The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables:**Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
 
 ### Key Findings
 
