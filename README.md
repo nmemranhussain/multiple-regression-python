@@ -31,17 +31,14 @@ The primary aim of this project is to:
 - **Diagnostics**: Residual analysis and QQ plots for model validation.
 - **Model Evaluation**: R-squared and residual distribution analysis to evaluate fit.
 
-### Key Findings
-
+## Key Findings
 - **Significant Variables**: Age, Transplants, Chronic Diseases, and Weight have the most significant impact on health premiums.
 - **Insignificant Variables**: Blood Pressure Problems, Height, and Known Allergies showed no significant effect.
 - **Model Performance**: The model achieved an R-squared value of 0.694, explaining 69.4% of the variance in premium costs.
 
-### Conclusion
-
+## Conclusion
 This analysis identifies critical health and demographic factors that impact health premium costs, providing insights for insurance premium modeling. While the model fits reasonably well, some variables remain statistically insignificant, highlighting areas for further refinement and exploration.
 
-### Repository Structure
-
+## Repository Structure
 - `6303_project.ipynb`: Jupyter Notebook containing the full analysis and model development.
 - `payor.csv`: Dataset used in the analysis.
