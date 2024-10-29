@@ -27,11 +27,11 @@ The primary aim of this project is to:
 
 - **Architecture:** This model utilizes linear models such multiple regression classification tasks.
 - **Training Data:** The dataset used for this analysis is [Payor](https://github.com/nmemranhussain/multiple-regression-python/blob/main/payor.csv), which includes anonymized patient data.
+- **Model Details**: The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables: **Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
 - **Data Preprocessing**: Data was split into 80% training and 20% test datasets.
 - **Model Fitting**: Using Python libraries to estimate model parameters.
 - **Diagnostics**: Residual analysis and QQ plots for model validation.
 - **Model Evaluation**: R-squared and residual distribution analysis to evaluate fit.
-- **Model Details**: The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables:**Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
 
 ### Key Findings
 
