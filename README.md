@@ -52,7 +52,3 @@ This analysis identifies critical health and demographic factors that impact hea
 ### License
 
 This project is shared under the [appropriate license of choice, e.g., MIT License].
-
----
-
-Feel free to modify or extend this README as per your project’s needs!
