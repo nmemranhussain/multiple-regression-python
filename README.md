@@ -2,21 +2,17 @@
 
 This repository contains a multiple regression analysis developed as part of the DNSC 6303 - Programming for Analytics I course at George Washington University. The project builds and evaluates a predictive model for health insurance premiums based on various health and demographic factors.
 
-## Model Overview
+## Basic Information
+**Names:** N M Emran Hussain  
+**Email:** nmemranhussain2023@gmail.com  
+**Date:** September 2024  
+**Model Version:** 1.0.0  
+**License:** [MIT License](LICENSE)
 
-The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables:
-- **Patient Age**
-- **Diabetes Diagnosis**
-- **Blood Pressure Problem**
-- **Transplant History**
-- **Chronic Disease Presence**
-- **Patient Weight**
-- **Patient Height**
-- **Known Allergies**
-
-### Dataset
-
-The dataset used for this analysis is `payor.csv`, which includes anonymized patient data and is derived from an initial quiz dataset. Key variables include the patient’s age, weight, height, and known medical conditions.
+## Intended Use
+**Purpose:** The model predicts health insurance premium on the given dataset using multiple regression machine learning algorithms.  
+**Intended Users:** Data scientists, machine learning enthusiasts, educators.  
+**Out-of-scope Uses:** The model is not intended for production use in any critical applications or real-time decision-making systems.
 
 ### Objective
 
@@ -29,10 +25,13 @@ The primary aim of this project is to:
 
 ### Methodology
 
+- **Architecture:** This model utilizes linear models such multiple regression classification tasks.
+- **Training Data:** The dataset used for this analysis is [Payor](https://github.com/nmemranhussain/multiple-regression-python/blob/main/payor.csv), which includes anonymized patient data.
 - **Data Preprocessing**: Data was split into 80% training and 20% test datasets.
 - **Model Fitting**: Using Python libraries to estimate model parameters.
 - **Diagnostics**: Residual analysis and QQ plots for model validation.
 - **Model Evaluation**: R-squared and residual distribution analysis to evaluate fit.
+- **The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables:**Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
 
 ### Key Findings
 
