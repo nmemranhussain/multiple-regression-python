@@ -78,13 +78,14 @@ The following columns were used as inputs (features) in the final model:
 - **Multiple Regression Classifier**
   
 ### Software Used to Implement the Model
-- **Software:** Python (with libraries such as Pandas, Scikit-learn, seaborn & matplotlib)
+- **Software:** Python (with libraries such as Scikit-learn, Statmodels, Matplotlib, Numpy and Pandas)
 
 ### Version of the Modeling Software: 
 - **'scikit-learn'**: '1.4.2',
 - **'statsmodels'**: '0.14.2',
 - **'matplotlib'**: '3.8.4',
-- **'numpy'**: '1.26.4'
+- **'numpy'**: '1.26.4',
+- **'pandas'**: '2.2.2'
 
 ### Hyperparameters or Other Settings of the Model
 The following hyperparameters were used for the 'logistic regression' model:
