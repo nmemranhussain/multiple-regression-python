@@ -88,7 +88,7 @@ The following columns were used as inputs (features) in the final model:
 - **'pandas'**: '2.2.2'
 
 ### Hyperparameters or Other Settings of the Model
-The following hyperparameters were used for the 'logistic regression' model:
+The following hyperparameters were used for the **Multiple Regression** model:
 - **'fit_intercept'**: True,
 - **'normalize'**: False,
 - **'n_jobs'**: None,
