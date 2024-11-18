@@ -10,17 +10,21 @@ This repository contains a multiple regression analysis developed as part of the
 **License:** [MIT License](LICENSE)
 
 ## Intended Use
-**Purpose:** The model predicts health insurance premium on the given dataset using multiple regression machine learning algorithms.  
-**Intended Users:** Data scientists, machine learning enthusiasts, educators.  
-**Out-of-scope Uses:** The model is not intended for production use in any critical applications or real-time decision-making systems.
+**Purpose:** 
+- Load and preprocess the dataset.
+- Build a multiple regression model.
+- Analyze model diagnostics.
+- Assess the impact of each variable on health premium costs.
+- Provide insights and recommendations based on the results.
+  
+**Intended Users:** 
+- Data scientists, machine learning enthusiasts, educators.
+  
+**Out-of-scope Uses:** 
+- The model is not intended for production use in any critical applications or real-time decision-making systems.
 
 ## Objective
-The primary aim of this project is to:
-1. Load and preprocess the dataset.
-2. Build a multiple regression model.
-3. Analyze model diagnostics.
-4. Assess the impact of each variable on health premium costs.
-5. Provide insights and recommendations based on the results.
+
 
 ## Methodology
 - **Architecture:** This model utilizes linear models such multiple regression classification tasks.
