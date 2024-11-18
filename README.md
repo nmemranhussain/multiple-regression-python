@@ -75,62 +75,26 @@ The following columns were used as inputs (features) in the final model:
 - **Target Column:** HealthPremium  
 
 ### Type of Models
-* **[Logistic Regression Classifier](https://github.com/nmemranhussain/titanic-ml-models/blob/main/Titanic_logistic%20(1).ipynb)**
-* **[Random Forest Classifier](https://github.com/nmemranhussain/titanic-ml-models/blob/main/Titanic_RF.ipynb)**
-
+- **Multiple Regression Classifier**
+  
 ### Software Used to Implement the Model
 - **Software:** Python (with libraries such as Pandas, Scikit-learn, seaborn & matplotlib)
 
 ### Version of the Modeling Software: 
-- **'pandas'**: '2.2.2',
 - **'scikit-learn'**: '1.4.2',
-- **'seaborn'**: '0.13.2',
-- **'matplotlib'**: '3.8.4**
+- **'statsmodels'**: '0.14.2',
+- **'matplotlib'**: '3.8.4',
+- **'numpy'**: '1.26.4'
 
 ### Hyperparameters or Other Settings of the Model
 The following hyperparameters were used for the 'logistic regression' model:
-- **Solver:** lbfgs
-- **Maximum Iterations:** 100
-- **Regularization (C):** 1.0
-- **Features used in the model**: ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex_male', 'Embarked_Q', 'Embarked_S']
-- **Target column**: Survived
-- **Model type**: Logistic Regression
-- **Hyperparameters**: Solver = lbfgs, Max iterations = 500, C = 1.0
-- **Software used**: scikit-learn sklearn.linear_model._logistic
-
-The following hyperparameters were used for the 'random forest' as an alternative model:
-- **Columns used as inputs**: ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked'], 
-- **Target column**: 'Survived',
-- **Type of model**: 'Random Forest Classifier',
-- **Software used**: 'scikit-learn',
+- **'fit_intercept'**: True,
+- **'normalize'**: False,
+- **'n_jobs'**: None,
+- **'positive'**: False
 
 ## Quantitative Analysis
-
-### Plots Related to Data or Final Model
- 
-![Plot of Survival Rate Vs. Passenger Class](SR_by_Class.png) 
-
-**Description**: Passengers in 1st class had the highest survival rate, followed by those in 2nd class. 3rd class passengers had the lowest survival rate.
-
-![Plot of Survival Rate Vs. Passenger Gender](SR_by_Gender.png) 
-
-**Description**: Females had a significantly higher survival rate than males, aligning with the negative coefficient for the "Sex" feature in the logistic regression model.
-
-![Plot of Survival Rate Vs. Passenger Age](SR_by_Age.png) 
-
-**Description**: Children (ages 0-12) had the highest survival rate, while seniors (ages 50-80) had the lowest. Young adults and adults had relatively similar survival rates, though slightly lower than children.
-
-
-## Methodology
-- **Architecture:** This model utilizes linear models such multiple regression classification tasks.
-- **Training Data:** The dataset used for this analysis is [Payor](https://github.com/nmemranhussain/multiple-regression-python/blob/main/payor.csv), which includes anonymized patient data.
-- **Model Details**: The multiple regression model predicts **health premium costs** (dependent variable) using the following independent variables: **Patient Age**, **Diabetes Diagnosis**, **Blood Pressure Problem**, **Transplant History**, **Chronic Disease Presence**, **Patient Weight**, **Patient Height**, **Known Allergies**
-- **Data Preprocessing**: Data was split into 80% training and 20% test datasets.
-- **Model Fitting**: Using Python libraries to estimate model parameters.
-- **Diagnostics**: Residual analysis and QQ plots for model validation.
-- **Model Evaluation**: R-squared and residual distribution analysis to evaluate fit.
-
-## Key Findings
+### Key Findings
 - **Significant Variables**: Age, Transplants, Chronic Diseases, and Weight have the most significant impact on health premiums.
 - **Insignificant Variables**: Blood Pressure Problems, Height, and Known Allergies showed no significant effect.
 - **Model Performance**: The model achieved an R-squared value of 0.694, explaining 69.4% of the variance in premium costs.
@@ -138,6 +102,4 @@ The following hyperparameters were used for the 'random forest' as an alternativ
 ## Conclusion
 This analysis identifies critical health and demographic factors that impact health premium costs, providing insights for insurance premium modeling. While the model fits reasonably well, some variables remain statistically insignificant, highlighting areas for further refinement and exploration.
 
-## Repository Structure
-- `6303_project.ipynb`: Jupyter Notebook containing the full analysis and model development.
-- `payor.csv`: Dataset used in the analysis.
+
