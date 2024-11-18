@@ -56,7 +56,7 @@ The dataset was divided into training and validation data as follows:
 - **Coefficient of determination (R²)** - Indicates the strength of relationships
 - **P-value** - Indicates statistical significance using 95% confidence level
 
-### Final Values of Metrics for All Data using 'logistic regression' model:
+### Final Values of Metrics for All Data using **Multiple Regression** model:
  
 ![OLS Regression Result in Python](Output_ML.png) 
 
