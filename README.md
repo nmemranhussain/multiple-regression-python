@@ -36,17 +36,17 @@ The dataset was divided into training and validation data as follows:
 
 ### Data Dictionary
 
-| **Feature Name**          | **Description**                                                                              | **Data Type** |
-|---------------------------|----------------------------------------------------------------------------------------------|---------------|
-| `PatientAge`              | Age of the patient in years.                                                                 | Numeric       |
-| `Diabetes`                | Indicator of whether the patient has diabetes (1 for Yes, 0 for No).                         | Binary        |
-| `BloodPressureProblems`   | Indicator of whether the patient has blood pressure-related problems (1 for Yes, 0 for No).  | Binary        |
-| `AnyTransplants`          | Indicator of whether the patient has had any organ transplants (1 for Yes, 0 for No).        | Binary        |
-| `AnyChronicDiseases`      | Indicator of whether the patient has any chronic diseases (1 for Yes, 0 for No).             | Binary        |
-| `PatientHeight`           | Height of the patient in centimeters (cm).                                                   | Numeric       |
-| `PatientWeight`           | Weight of the patient in kilograms (kg).                                                     | Numeric       |
-| `KnownAllergies`          | Indicator of whether the patient has known allergies (1 for Yes, 0 for No).                  | Binary        |
-| `HealthPremium`           | Health insurance premium amount for the patient in currency units.                           | Numeric       |
+| **Feature Name**          | **Description**                                                                              | **Data Type**  |
+|---------------------------|----------------------------------------------------------------------------------------------|--------------- |
+| `PatientAge`              | Age of the patient in years.                                                                 | Numeric        |
+| `Diabetes`                | Indicator of whether the patient has diabetes (1 for Yes, 0 for No).                         | Binary         |
+| `BloodPressureProblems`   | Indicator of whether the patient has blood pressure-related problems (1 for Yes, 0 for No).  | Binary         |
+| `AnyTransplants`          | Indicator of whether the patient has had any organ transplants (1 for Yes, 0 for No).        | Binary         |
+| `AnyChronicDiseases`      | Indicator of whether the patient has any chronic diseases (1 for Yes, 0 for No).             | Binary         |
+| `PatientHeight`           | Height of the patient in centimeters (cm).                                                   | Numeric        |
+| `PatientWeight`           | Weight of the patient in kilograms (kg).                                                     | Numeric        |
+| `KnownAllergies`          | Indicator of whether the patient has known allergies (1 for Yes, 0 for No).                  | Binary         |
+| `HealthPremium`           | Health insurance premium amount for the patient in currency units.                           | Numeric        |
 
 ## Model Details
 ### Architecture  
