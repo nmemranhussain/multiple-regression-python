@@ -26,9 +26,8 @@ This repository contains a multiple regression analysis developed as part of the
 ## Training Data
 **Dataset Name:** payor.csv  
 **Number of Rows:** 945  
-**Number of Columns:** 9
+**Number of Columns:** 9  
 **Features Used:** PatientAge, Diabetes, BloodPressureProblems, AnyTransplants, AnyChronicDiseases, PatientHeight, PatientWeight, KnownAllergies and HealthPremium.
-
 
 ### Splitting the Data for logistic regression model
 The dataset was divided into training and validation data as follows:
@@ -58,21 +57,22 @@ The dataset was divided into training and validation data as follows:
 - **P-value** - Indicates statistical significance using 95% confidence level
 
 ### Final Values of Metrics for All Data using 'logistic regression' model:
-
-
+ 
+![OLS Regression Result in Python](Output_ML.png) 
 
 ### Columns Used as Inputs in the Final Model
 The following columns were used as inputs (features) in the final model:
-- Pclass
-- Sex
-- Age
-- SibSp
-- Parch
-- Fare
-- Embarked
+- PatientAge  
+- Diabetes  
+- BloodPressureProblems  
+- AnyTransplants  
+- AnyChronicDiseases  
+- PatientHeight  
+- PatientWeight  
+- KnownAllergies  
 
 ### Column(s) Used as Target(s) in the Final Model
-- **Target Column:** Survived
+- **Target Column:** HealthPremium  
 
 ### Type of Models
 * **[Logistic Regression Classifier](https://github.com/nmemranhussain/titanic-ml-models/blob/main/Titanic_logistic%20(1).ipynb)**
